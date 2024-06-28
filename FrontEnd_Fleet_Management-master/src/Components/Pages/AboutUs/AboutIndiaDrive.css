@@ -1,0 +1,67 @@
+/* AboutIndiaDrive.css */
+.about {
+    position: relative;
+    padding: 50px 0;
+    background-image: url('../../../../public//images/img.jpeg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    /* color: #ffffff; Text color on top of the background image
+  } */}
+  
+  .about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .left {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 span {
+    color: #ff9900;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .choose {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .why {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  li {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  

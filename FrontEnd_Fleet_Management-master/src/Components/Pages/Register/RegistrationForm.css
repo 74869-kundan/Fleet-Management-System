@@ -1,0 +1,51 @@
+.registration-bg-container{
+  background-image: url('bgPx.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.registration-form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-image: url('pxfuel.jpg'); /* Replace with the actual path to your image */
+  background-size: cover; /* Ensure the background image covers the container */
+  background-repeat: no-repeat;
+
+  
+  /* Prevent the background image from repeating */
+}
+
+.registration-form-container h2 {
+  margin-bottom: 20px;
+}
+
+.registration-form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.registration-form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.registration-form-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-form-container button:hover {
+  background-color: #0056b3;
+}

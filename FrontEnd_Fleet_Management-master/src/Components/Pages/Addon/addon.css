@@ -1,0 +1,43 @@
+.addon {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.addon-box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.addon h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.addon-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.addon-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.addon-table input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.addon-table label {
+  font-weight: bold;
+}
+
+.addon-table input[type="text"] {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}

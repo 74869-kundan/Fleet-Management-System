@@ -1,0 +1,106 @@
+/* CustomerCare.css */
+.customer-care-container {
+    background-image: url('bgCustomerCare.jpg');
+    background-size: cover;
+    padding: 50px;
+  }
+  
+  .customer-care-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .customer-care-container p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .support-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    opacity: 0.9;
+  }
+  
+  .option {
+    flex: 1;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+  }
+  
+  .option h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-contact,
+  .btn-faqs {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-faqs {
+    background-color: #28a745;
+    margin-top: 10px;
+  }
+  
+  .btn-contact:hover,
+  .btn-faqs:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-form {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

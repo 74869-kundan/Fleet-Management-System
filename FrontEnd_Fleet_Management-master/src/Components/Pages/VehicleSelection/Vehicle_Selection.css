@@ -1,0 +1,33 @@
+/* Vehicle_Selection.css */
+.vehicle-selection {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .vehicle-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .vehicle-table th,
+  .vehicle-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .vehicle-image {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .select-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+ 
